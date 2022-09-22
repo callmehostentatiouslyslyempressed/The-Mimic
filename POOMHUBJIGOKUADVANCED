@@ -1,0 +1,76 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "shxdxwstxr", HidePremium = true, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Jigoku Advanced",
+	Icon = "rbxassetid://10566586189",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Auto Get Badge True",
+	Callback = function()
+      		-- config js -- 
+_G.AutoGetBadge = true -- // false 
+_G.NoLoading = false -- // false
+_G.AutoFullbright = false -- // false
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/-Trash/main/.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Auto Get Badge, No Loading True",
+	Callback = function()
+      		-- config js -- 
+_G.AutoGetBadge = true -- // false 
+_G.NoLoading = true -- // false
+_G.AutoFullbright = false -- // false
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/-Trash/main/.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Everything True",
+	Callback = function()
+      		-- config js -- 
+_G.AutoGetBadge = true -- // false 
+_G.NoLoading = true -- // false
+_G.AutoFullbright = true -- // false
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/-Trash/main/.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "No Loading True",
+	Callback = function()
+      		-- config js -- 
+_G.AutoGetBadge = false -- // false 
+_G.NoLoading = true -- // false
+_G.AutoFullbright = false -- // false
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/-Trash/main/.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "No Loading, Fullbright True",
+	Callback = function()
+      		-- config js -- 
+_G.AutoGetBadge = false -- // false 
+_G.NoLoading = true -- // false
+_G.AutoFullbright = true -- // false
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/-Trash/main/.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fullbright True",
+	Callback = function()
+      		-- config js -- 
+_G.AutoGetBadge = false -- // false 
+_G.NoLoading = false -- // false
+_G.AutoFullbright = true -- // false
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/-Trash/main/.lua"))()
+  	end    
+})
+
+-- i will add more later
