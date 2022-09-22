@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "shxdxwstxr", HidePremium = true, Sav
 
 local Tab = Window:MakeTab({
 	Name = "Jigoku Advanced",
-	Icon = "rbxassetid://10566586189",
+	Icon = "rbxassetid://10566597198",
 	PremiumOnly = false
 })
 
