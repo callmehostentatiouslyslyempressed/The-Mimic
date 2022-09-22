@@ -8,6 +8,13 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
+	Name = "Return Back To Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakoesp/The-Mimic/the-mimic-extra/The%20Mimic%20Orion"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Auto Get Badge True",
 	Callback = function()
       		-- config js -- 
