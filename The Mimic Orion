@@ -1,1 +1,802 @@
-work in progress
+ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "shxdxwstxr", HidePremium = true, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "KTollT",
+	Icon = "rbxassetid://10566586189",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "KTollT's Youtube Channel",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Youtube Channel",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/channel/UC7Qd6nnNiat95JWeIH0pX5Q/videos")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "KTollT's Discord",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Discord",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://discord.gg/DeXKV5VW8R")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "KTollT"
+})
+
+Tab:AddButton({
+	Name = "KTollT",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/KTollT/main/README.md'))()
+  	end    
+})
+
+-- video start
+
+Tab:AddButton({
+	Name = "Hack Mimic Free (Chapter 1-3 and The Witch Trails)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=FAgZ-tM21Zs")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hack The Mimic Chapter 2-3 (Script In Discord)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=H7Xj6gQamuk")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hack The Mimic Chapter 4 (Script In Discord)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=yS_g4lBQ7yc")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hack The Mimic Chapter 4 (Saigomo Part)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=lIUmqxoR3kw")
+  	end    
+})
+
+
+
+-- 1-4 end
+
+-- book 2 start
+
+Tab:AddButton({
+	Name = "Hack The Mimic Book 2",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=iGao8vqTfdo")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hack The Mimic Book 2(2)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=f5_62KEm2UQ")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hack The Mimic Book 2 (Nightmare)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=tNUqWd2mvRQ")
+  	end    
+})
+
+-- book 2 end
+
+-- witch start
+
+Tab:AddButton({
+	Name = "Test The Witch Trials",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=nwwEhEm69h8")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Test Two The Witch Trials",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=WSig5xqnufM")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Test Three The Witch Trials",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=Q-bpoyFelFU")
+  	end    
+})
+
+-- witch end
+
+-- xmas start
+
+Tab:AddButton({
+	Name = "Hack The Mimic XMAS",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=vMUHpoTSqAw")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hack The Mimic XMAS (Arceus X) (Auto Collect Now)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=yBTm5y-W-fA")
+  	end    
+})
+
+-- XMAS END
+
+local Section = Tab:AddSection({
+	Name = "KTollT Arceus X"
+})
+
+Tab:AddButton({
+	Name = "KTollT Arceus X",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/NewGUI/main/README.md'))()
+  	end    
+})
+
+-- video start
+
+Tab:AddButton({
+	Name = "Hack The Mimic (Arceus x) (Auto Collect Now)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=6EpFbK1J7P0")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "CLICK HERE If u can't pass Chapter 4 (Arceus x) (Auto Collect Now)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied KTollT's Video.",
+	Image = "rbxassetid://10566586189",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=ygKPiAnB_VM")
+  	end    
+})
+
+-- video end
+
+
+
+local Section = Tab:AddSection({
+	Name = "Outdated"
+})
+
+Tab:AddButton({
+	Name = "Limited",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/Limited/main/README.md'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Limited Two",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/LimitedTwo/main/README.md'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lantern",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/Lantern/main/README.md'))()
+  	end    
+})
+
+-- ktollt end
+
+-- ph hub start
+
+local Tab = Window:MakeTab({
+	Name = "PH HUB",
+	Icon = "rbxassetid://10566597198",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "PH HUB's Youtube Channel",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Youtube Channel.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/channel/UC_pCil8PObj9FY9A_fn6HHg/videos")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PH HUB's Discord",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Discord.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("http://discord.gg/cyp8TR4qpa")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "POOM-SHOP",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Shop.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://45.130.141.194/")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PH | Alt 🥇's Discord",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Jigoku Script Discord.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://discord.gg/PabHn9Jx7G")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Chapters"
+})
+
+Tab:AddButton({
+	Name = "POOM HUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicLimited/main/.Lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Book 1 Revamp Script",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/TheMimicBook1RevampScript/main/.Lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "script The mimic chapter 4 part 1 - 3",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=Ax0IxraXrmg")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Script POOM HUB X The Mimic BOOK II Come Back",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicPoomHubBookIIFirst/main/.Lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Script The Mimic Book II (Normal / Nightmare)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=4aDS4OtK4XE")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "New Update : Script The Mimic Book II Normal / Nightmare",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=DClEb6_DSZE")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "How To Using POOM HUB MIMIC BOOK II Script (OP)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=EEpDbMqyl9g")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Gamemodes"
+})
+
+Tab:AddButton({
+	Name = "Script POOM HUB X The Mimic Halloween Trails All part",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/POOMHUBHalloweenScript/main/.Lua"))()
+  	end    
+})
+
+-- the video actually got removed from youtube very sad
+
+Tab:AddButton({
+	Name = "The Mimic halloween Trails Hack / Script",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=2q6Zlg_sMMQ")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Script : The mimic - Christmas trail ShowCase",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=a7FOM8CC2bg")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Script The Mimic Show Case : The Witch Trials",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=Qy4alOymA7E")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Jigoku",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/JigokuScriptGoodPOOMHUB-/main/.pyXluaXjavaXC%2B%2B"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Jigoku V2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/-Trash/main/.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Jigoku Advanced",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakoesp/The-Mimic/the-mimic-extra/POOMHUBJIGOKUADVANCED"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "POOM HUBB | Jigoku Script Got Lantern 100% Coming soon ( indefinite release time)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied PH HUB's Video.",
+	Image = "rbxassetid://10566597198",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=5HdnkMis3TI")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Others"
+})
+
+Tab:AddButton({
+	Name = "Scritpt Fly In The Mimic",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/poomhubfly/main/fly2.8"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Outdated"
+})
+
+
+Tab:AddButton({
+	Name = "april fool Script",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptAutoFarmMimicPoomHubLimited/main/.Lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "XvasX HUB",
+	Icon = "rbxassetid://10943659049",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "XvasX's Youtube Channel",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX's Discord",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/channel/UCMhLO5a8gvM-nX57sloQUHw/videos")
+     end
+})
+
+
+Tab:AddButton({
+	Name = "XvasX's Discord",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX's Discord",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://discord.gg/urvaU4Fqbc")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Chapters"
+})
+
+Tab:AddButton({
+	Name = "Book1",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XITHHUB/SCRIPT/main/README.md"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Book2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XITHHUB/TheMimic/main/README.md"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "The Mimic Script Book2(Esp,Fullbright)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX HUB's Video.",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=v1IMq_07alg")
+  	end    
+})
+-- enmd1
+
+Tab:AddButton({
+	Name = "The Mimic Script XVAS(How to use.)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX HUB's Video.",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=0p593cHysxU")
+  	end    
+})
+
+-- end 2
+
+Tab:AddButton({
+	Name = "The mimic Script Book2(Nightmare)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX HUB's Video.",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=qD0gDlRmSNw")
+  	end    
+})
+
+-- end 3
+
+Tab:AddButton({
+	Name = "(UPDATE)The Mimic Script Book2 (Nightmare)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX HUB's Video.",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=BPfSftjmcmw")
+  	end    
+})
+
+-- end 4
+
+Tab:AddButton({
+	Name = "How to use in candle parts.(The mimic script)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX HUB's Video.",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=oCNKOu_NNzc")
+  	end    
+})
+
+-- end 5
+
+Tab:AddButton({
+	Name = "The Mimic Script(Book1 Update)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX HUB's Video.",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=SnEgWQAsVms")
+  	end    
+})
+
+-- end 6
+
+
+local Section = Tab:AddSection({
+	Name = "Gamemodes"
+})
+
+Tab:AddButton({
+	Name = "Jigoku Script (Free Source)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hanakokunsenpai/xvas/main/jigoku"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "The Mimic Script Jigoku(Update)",
+	Callback = function()
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied XvasX HUB's Video.",
+	Image = "rbxassetid://10943659049",
+	Time = 4
+})
+
+wait(0.4)
+setclipboard("https://www.youtube.com/watch?v=ZpCyewarFNQ")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Others",
+	Icon = "rbxassetid://10482450274",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fullbright",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/callmehostentatiouslyslyempressed/themimic/main/LIGHTNING'))()
+  	end    
+})
+
+OrionLib:Init()
